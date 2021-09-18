@@ -14,7 +14,7 @@ Desarrollo de una aplicacion consensuada
 
 - Emplee una etiqueta `<a></a>` con `id` igual a “`enlace-registro`”
 
-```
+```html
 <button type="button" id="btn-registrar">Registrarse</button>
 <a id="enlace-registro"></a>
 ```
@@ -28,7 +28,7 @@ campos serán igual a su nombre. (NO USE CARACTERES ESPECIALES COMO Ñ O TILDES)
 - Añada un elemento `<input/>` con atributo `type` igual a `submit` e `id` igual a "`btn-submit-form`". Este
 input estará encargado de enviar la información diligenciada en el formulario de registro.
 
-```
+```html
 <form id="form-registro">
 <label id="Nombre"><label/>
 <input><input/>
