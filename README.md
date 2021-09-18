@@ -20,12 +20,12 @@ Desarrollo de una aplicacion consensuada
 ```
 ### registro.html
 
-- Emplee la etiqueta `<form></form>` para crear el elemento y añada el atributo `id` igual a "form-registro"
+- Emplee la etiqueta `<form></form>` para crear el elemento y añada el atributo `id` igual a "`form-registro`"
 
 - Cada uno de los campos debe de tener una etiqueta `<lable/>` e `<input/>`. Los atributos `id` de los
 campos serán igual a su nombre. (NO USE CARACTERES ESPECIALES COMO Ñ O TILDES).
 
-- Añada un elemento `<input/>` con atributo `type` igual a `submit` e `id` igual a "btn-submit-form". Este
+- Añada un elemento `<input/>` con atributo `type` igual a `submit` e `id` igual a "`btn-submit-form`". Este
 input estará encargado de enviar la información diligenciada en el formulario de registro.
 
 ```
