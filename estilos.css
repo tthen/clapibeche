@@ -1,0 +1,57 @@
+
+.jumbotron p{
+    color:blue;
+    /* background-color:honeydew */
+}
+
+body {
+    background-color: whitesmoke !important;
+  }
+        /* Media Query for Mobile Devices */
+        @media (max-width: 480px) {
+            p { 
+                font-size: 16px;
+                color: teal;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            a {
+                size: 32px;
+            }
+        }
+          
+        /* Media Query for low resolution  Tablets, Ipads */
+        @media (min-width: 481px) and (max-width: 767px) {
+            p { 
+                font-size: 16px;
+                color: teal;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+        }
+          
+        /* Media Query for Tablets Ipads portrait mode */
+        @media (min-width: 768px) and (max-width: 1024px){
+            p { 
+                font-size: 26px;
+                color: teal;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+        }
+          
+        /* Media Query for Laptops and Desktops */
+        @media (min-width: 1025px) and (max-width: 1280px){
+            p { 
+                font-size: 32px;
+                color: teal;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+        }
+          
+        /* Media Query for Large screens */
+        @media (min-width: 1281px) {
+            p { 
+                font-size: 32px;
+                color: teal;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+        }
