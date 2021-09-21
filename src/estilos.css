@@ -1,4 +1,5 @@
 
+
 .jumbotron p{
     color:blue;
     /* background-color:honeydew */
@@ -14,9 +15,8 @@ body {
                 color: teal;
                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             }
-            a {
-                size: 32px;
-            }
+
+
         }
           
         /* Media Query for low resolution  Tablets, Ipads */
@@ -26,6 +26,7 @@ body {
                 color: teal;
                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             }
+
         }
           
         /* Media Query for Tablets Ipads portrait mode */
