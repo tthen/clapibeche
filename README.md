@@ -1,52 +1,71 @@
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+
+
+
 # clapibeche
-Desarrollo de una aplicacion consensuada
+
+Esta plataforma realiza estudios de mercado que ayudan en la toma de
+decisiones empresariales para ofrecer servicios de calidad.
+Al diligenciar el siguiente formulario está de acuerdo con las
+condiciones del servicio y el uso de los datos suministrados.
+
+Al utilizar este medio acepta términos y condiciones, y se
+responsabiliza de la información que sea compartida en el mismo.
+(Ley 1581 de 2012 y el Decreto 1377 de 2013)
 
 # Sprint 1
 
-## Contenido HTML
-### index.html 
+## Actividades
 
-- Emplee la etiqueta `<button></button>` para crear el elemento.
+- [x] Implementar un landing page que cuente con un cabezote, que contenga 
+informacion de su proyecto y un boton que lleve a una pestana de registro. 
+(Opcional) Implementar el patron de diseno responsive **Mostly Fluid** en 
+su proyecto.
 
-- El atributo `type` de ser igual a `button`.
+- [x] Crear un boton de registro que permita dirigirse a una nueva ventana 
+`registro.html`, que cuente con el formulario de registro.
 
-- El atributo `id` de ser igual a "`btn-registrar`"
+- [x] Crear un formulario dentro de un contenedor que se desplegara, cuando 
+se de clicl en el boton de registro.  El formulario debe tener los 
+campos: **nombre**, **apellido**, **telefono**, **correo** y **contrasena**.
 
-- Emplee una etiqueta `<a></a>` con `id` igual a “`enlace-registro`”
+## Entrega:
 
-```html
-<button type="button" id="btn-registrar">Registrarse</button>
-<a id="enlace-registro"></a>
-```
-### registro.html
+Los archivos de entrega de este sprint son: `index.html`, `registro.html` y `estilos.css`.
 
-- Emplee la etiqueta `<form></form>` para crear el elemento y añada el atributo `id` igual a "`form-registro`"
-
-- Cada uno de los campos debe de tener una etiqueta `<lable/>` e `<input/>`. Los atributos `id` de los
-campos serán igual a su nombre. (NO USE CARACTERES ESPECIALES COMO Ñ O TILDES).
-
-- Añada un elemento `<input/>` con atributo `type` igual a `submit` e `id` igual a "`btn-submit-form`". Este
-input estará encargado de enviar la información diligenciada en el formulario de registro.
-
-```html
-<form id="form-registro">
-<label id="Nombre"><label/>
-<input><input/>
+# Sprint 2
 
 
-<input type="submit" id="btn-submit-form"><input/>
-
-</form>
-
-```
+## Actividades
 
 
-## Contenido CSS
-### estilos.css
-Por implementar
-```
-Por implementar
-```
+- [x] Validar el campo nombre evitando que se ingresen caracteres 
+numericos, restringiendo la longitud entre 4 y 30 caracteres 
+maximo y que el campo no se deje vacio.
 
-### Contenido archivo JS
-No hay archivos de este tipo para el primer sprint
+- [x] Validar el campo apellido evitando que se ingresen caracteres 
+numericos, restringiendo la longitud entre 4 y 30 caracteres 
+maximo y que el campo no se  deje vacio.
+
+- [x] Validar el campo telefono, este campo debe tener una longitud  
+de 7 digitos unicamente, solo puede contener caracteres numericos y 
+no puede dejarse vacio.
+
+- [x] Validar el campo correo, este campo debe representar la estructura 
+de un correo, es decir, debe verse de la siguiente manera `usuario@correo.com` 
+por lo que debe incluir `@` seguido del dominio del correo. Asi mismo, 
+el campo no puede estar vacio.
+
+- [x] Validacion de la contrasena, en donde el usuario debe ingresar por 
+lo menos una letra mayuscula, una minuscula, un numero y con una 
+longitud mayor o igual a 8 digitos. Este campo es requerido, por lo 
+que, no se puede dejar vacio.
+
+## Entrega:
+
+El archivo de entrega de este sprint es `form.js`.
+
