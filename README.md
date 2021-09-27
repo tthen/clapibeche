@@ -72,7 +72,7 @@ El archivo de entrega de este sprint es `form.js`.
 
 ## Actividades
 
-- [] Crear un arreglo de objetos que contenga la información 
+- [ ] Crear un arreglo de objetos que contenga la información 
 consignada en el formulario de registro.
 
 - Declarar un arreglo global en donde se almacenen cada uno de los 
@@ -88,7 +88,7 @@ está ingresando en el arreglo.
 - Exporte la función empleando la siguiente sentencia de código:
 `module.exports = agregarRegistro;`
 
-- [] Ordenar el contenido del arreglo a partir del campo Apellido de 
+- [ ] Ordenar el contenido del arreglo a partir del campo Apellido de 
 manera ascendente.
 
 - Implementar la función `ordenarArreglo(arreglo)`, donde se ordenará 
@@ -100,7 +100,7 @@ el contenido del mismo.
 - Exporte la función empleando la siguiente sentencia de código:
 `module.exports = ordenarArreglo;`
 
-- [] Filtrar aquellos registros que contengan en el campo Correo,
+- [ ] Filtrar aquellos registros que contengan en el campo Correo,
 correos con direcciones de `gmail.com`.
 
 - Implementar la función `filtrarCorreo(arreglo)`.
