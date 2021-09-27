@@ -39,9 +39,7 @@ Los archivos de entrega de este sprint son: `index.html`, `registro.html` y `est
 
 # Sprint 2
 
-
 ## Actividades
-
 
 - [x] Validar el campo nombre evitando que se ingresen caracteres 
 numericos, restringiendo la longitud entre 4 y 30 caracteres 
@@ -68,4 +66,57 @@ que, no se puede dejar vacio.
 ## Entrega:
 
 El archivo de entrega de este sprint es `form.js`.
+
+
+# Sprint 3
+
+## Actividades
+
+- [] Crear un arreglo de objetos que contenga la información 
+consignada en el formulario de registro.
+
+- Declarar un arreglo global en donde se almacenen cada uno de los 
+registros. 
+
+- Crear la función `agregarRegistro()`, la cual estará encargada de 
+realizar las operaciones necesarias para tomar la información ingresada 
+en el formulario de registro y guardarla en el arreglo.
+
+- **Opcional**: Emplee el objeto console para imprimir el contenido que se 
+está ingresando en el arreglo.
+
+- Exporte la función empleando la siguiente sentencia de código:
+`module.exports = agregarRegistro;`
+
+- [] Ordenar el contenido del arreglo a partir del campo Apellido de 
+manera ascendente.
+
+- Implementar la función `ordenarArreglo(arreglo)`, donde se ordenará 
+el arreglo de registros a partir del campo **Apellido**.
+
+- La función debe retornar el arreglo ordenado e imprimir por consola 
+el contenido del mismo.
+
+- Exporte la función empleando la siguiente sentencia de código:
+`module.exports = ordenarArreglo;`
+
+- [] Filtrar aquellos registros que contengan en el campo Correo,
+correos con direcciones de `gmail.com`.
+
+- Implementar la función `filtrarCorreo(arreglo)`.
+
+- La función debe de retornar el listado de los registros que cumplen 
+las características del filtro e imprimir en consola dicho listado.
+
+- Exporte la función empleando la siguiente sentencia de código:
+`module.exports = filtrarCorreo;`
+
+Documentos de referencia: 
+[Console](https://developer.mozilla.org/es/docs/Web/API/Console)
+[JavaScript Array Methods](https://www.w3schools.com/js/js_array_methods.asp)
+
+
+## Entrega:
+
+El archivo de entrega de este sprint es `registro.js`.
 
