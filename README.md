@@ -75,41 +75,41 @@ El archivo de entrega de este sprint es `form.js`.
 - [ ] Crear un arreglo de objetos que contenga la información 
 consignada en el formulario de registro.
 
-- Declarar un arreglo global en donde se almacenen cada uno de los 
-registros. 
+   - [ ] Declarar un arreglo global en donde se almacenen cada uno de los 
+   registros. 
 
-- Crear la función `agregarRegistro()`, la cual estará encargada de 
-realizar las operaciones necesarias para tomar la información ingresada 
-en el formulario de registro y guardarla en el arreglo.
+   - [ ] Crear la función `agregarRegistro()`, la cual estará encargada de 
+     realizar las operaciones necesarias para tomar la información ingresada 
+     en el formulario de registro y guardarla en el arreglo.
 
-- **Opcional**: Emplee el objeto console para imprimir el contenido que se 
-está ingresando en el arreglo.
+   - [ ] **Opcional**: Emplee el objeto console para imprimir el contenido que se 
+     está ingresando en el arreglo.
 
-- Exporte la función empleando la siguiente sentencia de código:
-`module.exports = agregarRegistro;`
+   - [ ] Exporte la función empleando la siguiente sentencia de código:
+   `module.exports = agregarRegistro;`
 
 - [ ] Ordenar el contenido del arreglo a partir del campo Apellido de 
 manera ascendente.
 
-- Implementar la función `ordenarArreglo(arreglo)`, donde se ordenará 
-el arreglo de registros a partir del campo **Apellido**.
+   - [ ] Implementar la función `ordenarArreglo(arreglo)`, donde se ordenará 
+   el arreglo de registros a partir del campo **Apellido**.
 
-- La función debe retornar el arreglo ordenado e imprimir por consola 
-el contenido del mismo.
+   - [ ] La función debe retornar el arreglo ordenado e imprimir por consola 
+   el contenido del mismo.
 
-- Exporte la función empleando la siguiente sentencia de código:
-`module.exports = ordenarArreglo;`
+   - [ ] Exporte la función empleando la siguiente sentencia de código:
+   `module.exports = ordenarArreglo;`
 
 - [ ] Filtrar aquellos registros que contengan en el campo Correo,
 correos con direcciones de `gmail.com`.
 
-- Implementar la función `filtrarCorreo(arreglo)`.
+   - [ ] Implementar la función `filtrarCorreo(arreglo)`.
 
-- La función debe de retornar el listado de los registros que cumplen 
-las características del filtro e imprimir en consola dicho listado.
+   - [ ] La función debe de retornar el listado de los registros que cumplen 
+   las características del filtro e imprimir en consola dicho listado.
 
-- Exporte la función empleando la siguiente sentencia de código:
-`module.exports = filtrarCorreo;`
+   - [ ] Exporte la función empleando la siguiente sentencia de código:
+   `module.exports = filtrarCorreo;`
 
 Documentos de referencia: 
 [Console](https://developer.mozilla.org/es/docs/Web/API/Console)
