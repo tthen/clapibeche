@@ -120,3 +120,53 @@ Documentos de referencia:
 
 El archivo de entrega de este sprint es `registro.js`.
 
+De acuerdo a las actividaders enunciadas antes contenido del archivo `registro.js` 
+es el siguiente:
+
+```javascript
+// declarar arreglo global para almacenamiento de registros
+
+
+// Crear la función agregarRegistro(), la cual estará encargada de 
+// realizar las operaciones necesarias para tomar la información 
+// ingresada en el formulario de registro y guardarla en el arreglo.
+
+function agregarRegistro() {
+    // contenido
+}
+
+// Implementar la función ordenarArreglo(arreglo), donde se ordenará 
+// el arreglo de registros a partir del campo Apellido.
+
+function ordenarArreglo(arreglo) {
+    // contenido
+
+    // La función debe retornar el arreglo ordenado e 
+    // imprimir por consola el contenido del mismo.
+    return arreglo;
+    console.log(arreglo);
+}
+
+
+// Implementar la función filtrarCorreo(arreglo).
+
+function filtrarCorreo(arreglo) {
+    // contenido
+
+    // La función debe de retornar el listado de los registros que 
+    // cumplen las características del filtro e imprimir en consola 
+    // dicho listado.
+    return arreglo;
+    console.log(arreglo);
+}
+
+
+// Exporte la función empleando la siguiente sentencia de código: 
+module.exports = agregarRegistro;
+
+// Exporte la función empleando la siguiente sentencia de código: 
+module.exports = ordenarArreglo;
+
+// Exporte la función empleando la siguiente sentencia de código: 
+module.exports = filtrarCorreo;
+```
