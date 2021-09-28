@@ -126,6 +126,7 @@ es el siguiente:
 ```javascript
 // declarar arreglo global para almacenamiento de registros
 
+var arreglo = [];
 
 // Crear la función agregarRegistro(), la cual estará encargada de 
 // realizar las operaciones necesarias para tomar la información 
