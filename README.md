@@ -119,3 +119,43 @@ Documentos de referencia:
 ## Entrega:
 
 El archivo de entrega de este sprint es `registro.js`.
+
+
+# Sprint 4
+
+## Actividades
+
+Para el desarrollo de las actividades de este sprint es necesario que cuente con una base de datos
+relacional (MySQL). Deberá tener en cuenta el modelado que necesita su proyecto y
+la implementación respectiva de las tablas; en una de estas deben estar configurados todos los
+campos del formulario de registro trabajado en sprints pasados.
+
+- [  ] Implementar una consulta que traiga los campos nombre, apellido y correo de
+los registros ordenados ascendentemente por el nombre.
+
+   - [  ] Elabore la sentencia SQL que permite realizar la consulta antes mencionada sobre la tabla Usuarios
+   - [  ] Entregar el código de la consulta en un archivo nombrado como Query_OrdenarPorNombre.sql
+
+- [  ] Implementar una consulta que traiga los campos nombre, apellido y teléfono
+ordenando la salida de manera descendente por el campo teléfono.
+
+   - [  ] Elabore la sentencia SQL que permite realizar la consulta antes mencionada sobre la tabla Usuarios
+   - [  ] Entregar el código de la consulta en un archivo nombrado como Query_OrdenarPorTelefono.sql
+
+
+- [  ] A partir de una consulta obtenga aquellos registros que el campo de
+correo coincida con direcciones de gmail.com
+
+   - [  ] Elabore la sentencia SQL que permite realizar la consulta antes mencionada sobre la tabla Usuarios
+   - [  ] Entregar el código de la consulta en un archivo nombrado como Query_ObtenerCorreo.sql
+
+## Entrega:
+
+Suba a la plataforma los archivos con extensión .sql , que empleó para dar solución a cada una de las
+actividades de las historias de usuario planteadas en este sprint. Los archivos deben de llamarse como
+se especifica en cada una de las actividades de lo contrario no se calificará.
+
+Nota: Las sentencias se trabaja de manera similar a las instrucciones brindadas por el docente al
+emplear el Framework express JS , para la obtención de información almacenada en una base de
+datos. Sin embargo, en este sprint no se harán entregas de archivos de extensión JS, sino de las
+consultas desarrolladas en SQL.
