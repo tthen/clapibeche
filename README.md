@@ -164,8 +164,42 @@ consultas desarrolladas en SQL.
 
 ## Actividades
 
-En un nuevo documento `login.html`. Crear un formulario de inicio de sesión que le permita a los 
-usuarios ya registrados ingresar a su cuenta.
+- [ ] En un nuevo documento `login.html`. Crear un formulario de inicio de sesión que le permita a los 
+      usuarios ya registrados ingresar a su cuenta.
+
+   - [ ] Emplee la etiqueta `<form></form>` para crear el elemento y añada el atributo id igual a `form-login`.
+   - [ ] El formulario debe contar con dos inputs, uno para el correoy otro para la contraseña. Además, cada 
+         input debe de tener un atributo id igual al nombre del campo, es decir, `correo` y `contrasena` 
+	 respectivamente. Estos campos serán requeridos para que el usuario pueda ingresar a su cuenta.
+   - [ ] De igual forma, el formulario debe de tener un input adicional para la validación del CAPTCHA con 
+         un atributo id igual a captcha, esto con el fin de verificar la autenticidad del usuario.
+
+- [ ] Validación de ingreso a la aplicación. Para que un usuario pueda ingresar a la aplicación debe encontrarse 
+      registrado, que sus datos de ingreso coincidan y que complete un CAPTCHA.
+
+   - [ ] Implementar la función `login()`, está función estará encargada de validar los campos ingresados con la 
+         información alojada en el arreglo global donde se encuentran cada uno de los registros de los usuarios 
+         de la aplicación (arreglo trabajado en la actividad uno del sprint número tres). Así mismo, en esta función 
+         se invocará la función `validarCAPTCHA()`,que como su nombre lo indica, añade un filtro adicional al 
+         inicio de sesión. Al cumplirse las condiciones antes descritas el usuario podrá ingresar a la aplicación.
+
+   - [ ] NOTA IMPORTANTE: Debes exportar el arreglo global declarado con la sentencia
+         `module.exports.registros=registros;`
+	 
+   - [ ] Exporte la función empleando la siguiente sentencia de código:
+         `module.exports.login =login;`
+
+
+- [ ] Implementar una función estática que por medio de una pregunta, compruebe la autenticidad de usuario y 
+      evite que el registro esté siendo diligenciado por un Bot.
+
+
+   - [ ] Crear la función `validarCAPTCHA(valor)`, en donde se verificará la autenticidad de un usuario.
+   - [ ] La función deberá validar el valor ingresado a partir de la pregunta ¿Qué resultado da el cuarto de 
+         un tercio de 12000?. La función retornará verdadero si el valor ingresado es correcto o falso en caso de no serlo.
+   - [ ] Exporte la función empleando la siguiente sentencia de código:
+         `module.exports.validarCAPTCHA = validarCAPTCHA;`
+
 
 
 ## Entrega:
