@@ -130,24 +130,24 @@ relacional (MySQL). Deberá tener en cuenta el modelado que necesita su proyecto
 la implementación respectiva de las tablas; en una de estas deben estar configurados todos los
 campos del formulario de registro trabajado en sprints pasados.
 
-- [ ] Implementar una consulta que traiga los campos `nombre`, `apellido` y `correo` de
+- [x] Implementar una consulta que traiga los campos `nombre`, `apellido` y `correo` de
 los registros ordenados ascendentemente por el nombre.
 
-   - [ ] Elabore la sentencia SQL que permite realizar la consulta antes mencionada sobre la tabla `Usuarios`
-   - [ ] Entregar el código de la consulta en un archivo nombrado como `Query_OrdenarPorNombre.sql`
+   - [x] Elabore la sentencia SQL que permite realizar la consulta antes mencionada sobre la tabla `Usuarios`
+   - [x] Entregar el código de la consulta en un archivo nombrado como `Query_OrdenarPorNombre.sql`
 
-- [ ] Implementar una consulta que traiga los campos `nombre`, `apellido` y `teléfono`
+- [x] Implementar una consulta que traiga los campos `nombre`, `apellido` y `teléfono`
 ordenando la salida de manera descendente por el campo `teléfono`.
 
-   - [ ] Elabore la sentencia SQL que permite realizar la consulta antes mencionada sobre la tabla `Usuarios`
-   - [ ] Entregar el código de la consulta en un archivo nombrado como `Query_OrdenarPorTelefono.sql`
+   - [x] Elabore la sentencia SQL que permite realizar la consulta antes mencionada sobre la tabla `Usuarios`
+   - [x] Entregar el código de la consulta en un archivo nombrado como `Query_OrdenarPorTelefono.sql`
 
 
-- [ ] A partir de una consulta obtenga aquellos registros que el campo de
+- [x] A partir de una consulta obtenga aquellos registros que el campo de
 `correo` coincida con direcciones de `gmail.com`.
 
-   - [ ] Elabore la sentencia SQL que permite realizar la consulta antes mencionada sobre la tabla `Usuarios`
-   - [ ] Entregar el código de la consulta en un archivo nombrado como `Query_ObtenerCorreo.sql`
+   - [x] Elabore la sentencia SQL que permite realizar la consulta antes mencionada sobre la tabla `Usuarios`
+   - [x] Entregar el código de la consulta en un archivo nombrado como `Query_ObtenerCorreo.sql`
 
 ## Entrega:
 
@@ -159,3 +159,46 @@ Nota: Las sentencias se trabaja de manera similar a las instrucciones brindadas 
 emplear el Framework `express JS` , para la obtención de información almacenada en una base de
 datos. Sin embargo, en este sprint no se harán entregas de archivos de extensión JS, sino de las
 consultas desarrolladas en SQL.
+
+# Sprint 5
+
+## Actividades
+
+En un nuevo documento `login.html`. Crear un formulario de inicio de sesión que le permita a los 
+usuarios ya registrados ingresar a su cuenta.
+
+
+## Entrega:
+
+Suba a la plataforma los archivos JS, que empleo para dar solucion a cada una de las actividades
+de las historias de usuario planteadas en este sprint. El archivo debe llamarse `login.js`de lo 
+contrario no se calificara.
+
+Para la evaluacion de este sprint es muy importante que los valores de los atributos id de los 
+elementos sean exactamente iguales a los indicados en las actividades del sprint. De igual manera, 
+nombre las funciones exactamente igual a como se nombran en el instructivo de cada actividad del 
+sprint actual.
+
+## Codigo Fuente:
+
+```javascript
+function agregarRegistro() {
+
+    var nombre = document.getElementById('nombre').value;
+    var apellido = document.getElementById('apellido').value;
+    var telefono = document.getElementById('telefono').value;
+    var correo = document.getElementById('correo').value;
+    var contrasena = document.getElementById('contrasena').value;
+
+    var regs = {
+        nombre,
+        apellido,
+        telefono,
+        correo,
+        contrasena,
+    };
+	
+    registros.push(regs);
+
+}
+```
