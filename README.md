@@ -182,6 +182,21 @@ sprint actual.
 ## Codigo Fuente:
 
 ```javascript
+let registros = [];
+
+function login (){
+    pass;
+}
+
+
+function agregarRegistro (){
+    pass;
+}
+
+function validarCAPTCHA (valor) {
+    pass;
+}
+
 function agregarRegistro() {
 
     var nombre = document.getElementById('nombre').value;
@@ -201,4 +216,9 @@ function agregarRegistro() {
     registros.push(regs);
 
 }
+
+module.exports.login = login;
+module.exports.registros = registros;
+module.exports.validarCAPTCHA = validarCAPTCHA;
+module.exports.agregarRegistro = agregarRegistro;
 ```
