@@ -1,4 +1,13 @@
-let registros = [];
+// let registros = [];
+
+let registros = [
+    { correo: "juan@gmail.com", contrasena: "SecurePassword123" },
+    { correo: "juan@gmail.com", contrasena: "SecurePassword123" },
+    { correo: "juan@gmail.com", contrasena: "SecurePassword123" },
+    { correo: "juan@gmail.com", contrasena: "SecurePassword123" },
+    { correo: "juan@gmail.com", contrasena: "SecurePassword123" },
+    { correo: "juan@gmail.com", contrasena: "SecurePassword123" },
+];
 
 function agregarRegistro() {
 
@@ -26,16 +35,21 @@ function login (){
 
     for (i in registros) {
         if ( i.correo === correo && i.contrasena === contrasena && validarCAPTCHA(Number(captcha)) === true ) {
-            // console.log("Calido correo y contrasena"); // true
                 return true;
         } else {
-            // console.log("Usted no es un usuario registrado"); // false
             return false;
         }
     }
-
-
 }
+
+
+// function prueba () {
+//     if ( correo === "henrytorres@mail.com" && contrasena === "123" && validarCAPTCHA((captcha)) === true ) {
+//             return true;
+//     } else {
+//         return false;
+//     }
+// }
 
 
 function validarCAPTCHA (valor) {
@@ -45,6 +59,7 @@ function validarCAPTCHA (valor) {
         return false;
       }
 }
+
 
 module.exports.registros = registros;
 module.exports.agregarRegistro = agregarRegistro;
