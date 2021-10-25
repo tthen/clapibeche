@@ -164,40 +164,40 @@ consultas desarrolladas en SQL.
 
 ## Actividades
 
-- [ ] En un nuevo documento `login.html`. Crear un formulario de inicio de sesión que le permita a los 
+- [x] En un nuevo documento `login.html`. Crear un formulario de inicio de sesión que le permita a los 
       usuarios ya registrados ingresar a su cuenta.
 
-   - [ ] Emplee la etiqueta `<form></form>` para crear el elemento y añada el atributo id igual a `form-login`.
-   - [ ] El formulario debe contar con dos inputs, uno para el correoy otro para la contraseña. Además, cada 
+   - [x] Emplee la etiqueta `<form></form>` para crear el elemento y añada el atributo id igual a `form-login`.
+   - [x] El formulario debe contar con dos inputs, uno para el correoy otro para la contraseña. Además, cada 
          input debe de tener un atributo id igual al nombre del campo, es decir, `correo` y `contrasena` 
 	 respectivamente. Estos campos serán requeridos para que el usuario pueda ingresar a su cuenta.
-   - [ ] De igual forma, el formulario debe de tener un input adicional para la validación del CAPTCHA con 
+   - [x] De igual forma, el formulario debe de tener un input adicional para la validación del CAPTCHA con 
          un atributo id igual a captcha, esto con el fin de verificar la autenticidad del usuario.
 
-- [ ] Validación de ingreso a la aplicación. Para que un usuario pueda ingresar a la aplicación debe encontrarse 
+- [x] Validación de ingreso a la aplicación. Para que un usuario pueda ingresar a la aplicación debe encontrarse 
       registrado, que sus datos de ingreso coincidan y que complete un CAPTCHA.
 
-   - [ ] Implementar la función `login()`, está función estará encargada de validar los campos ingresados con la 
+   - [x] Implementar la función `login()`, está función estará encargada de validar los campos ingresados con la 
          información alojada en el arreglo global donde se encuentran cada uno de los registros de los usuarios 
          de la aplicación (arreglo trabajado en la actividad uno del sprint número tres). Así mismo, en esta función 
          se invocará la función `validarCAPTCHA()`,que como su nombre lo indica, añade un filtro adicional al 
          inicio de sesión. Al cumplirse las condiciones antes descritas el usuario podrá ingresar a la aplicación.
 
-   - [ ] NOTA IMPORTANTE: Debes exportar el arreglo global declarado con la sentencia
+   - [x] NOTA IMPORTANTE: Debes exportar el arreglo global declarado con la sentencia
          `module.exports.registros=registros;`
 	 
-   - [ ] Exporte la función empleando la siguiente sentencia de código:
+   - [x] Exporte la función empleando la siguiente sentencia de código:
          `module.exports.login =login;`
 
 
-- [ ] Implementar una función estática que por medio de una pregunta, compruebe la autenticidad de usuario y 
+- [x] Implementar una función estática que por medio de una pregunta, compruebe la autenticidad de usuario y 
       evite que el registro esté siendo diligenciado por un Bot.
 
 
-   - [ ] Crear la función `validarCAPTCHA(valor)`, en donde se verificará la autenticidad de un usuario.
-   - [ ] La función deberá validar el valor ingresado a partir de la pregunta ¿Qué resultado da el cuarto de 
+   - [x] Crear la función `validarCAPTCHA(valor)`, en donde se verificará la autenticidad de un usuario.
+   - [x] La función deberá validar el valor ingresado a partir de la pregunta ¿Qué resultado da el cuarto de 
          un tercio de 12000?. La función retornará verdadero si el valor ingresado es correcto o falso en caso de no serlo.
-   - [ ] Exporte la función empleando la siguiente sentencia de código:
+   - [x] Exporte la función empleando la siguiente sentencia de código:
          `module.exports.validarCAPTCHA = validarCAPTCHA;`
 
 
@@ -212,47 +212,3 @@ Para la evaluacion de este sprint es muy importante que los valores de los atrib
 elementos sean exactamente iguales a los indicados en las actividades del sprint. De igual manera, 
 nombre las funciones exactamente igual a como se nombran en el instructivo de cada actividad del 
 sprint actual.
-
-## Codigo Fuente:
-
-```javascript
-let registros = [];
-
-function login (){
-    pass;
-}
-
-
-function agregarRegistro (){
-    pass;
-}
-
-function validarCAPTCHA (valor) {
-    pass;
-}
-
-function agregarRegistro() {
-
-    var nombre = document.getElementById('nombre').value;
-    var apellido = document.getElementById('apellido').value;
-    var telefono = document.getElementById('telefono').value;
-    var correo = document.getElementById('correo').value;
-    var contrasena = document.getElementById('contrasena').value;
-
-    var regs = {
-        nombre,
-        apellido,
-        telefono,
-        correo,
-        contrasena,
-    };
-	
-    registros.push(regs);
-
-}
-
-module.exports.login = login;
-module.exports.registros = registros;
-module.exports.validarCAPTCHA = validarCAPTCHA;
-module.exports.agregarRegistro = agregarRegistro;
-```
